@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-10-21T00:46:32.162468" rpa="false" schemaversion="5">
+<suite id="s1" name="Test" source="C:\Users\hrist\PycharmProjects\Test">
+<suite id="s1-s1" name="QA" source="C:\Users\hrist\PycharmProjects\Test\QA">
+<suite id="s1-s1-s1" name="TestCases" source="C:\Users\hrist\PycharmProjects\Test\QA\TestCases">
+<suite id="s1-s1-s1-s1" name="HomePage" source="C:\Users\hrist\PycharmProjects\Test\QA\TestCases\HomePage.robot">
+<kw name="Open Browser" owner="SeleniumLibrary" type="SETUP">
+<msg time="2024-10-21T00:46:32.499652" level="INFO">Opening browser 'chrome' to base url 'https://www.zara.com/mk/'.</msg>
+<arg>https://www.zara.com/mk/</arg>
+<arg>chrome</arg>
+<doc>Opens a new browser instance to the optional ``url``.</doc>
+<status status="PASS" start="2024-10-21T00:46:32.499361" elapsed="4.598949"/>
+</kw>
+<test id="s1-s1-s1-s1-t1" name="T01 - Open Zara Home MK" line="6">
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<doc>Maximizes current browser window.</doc>
+<status status="PASS" start="2024-10-21T00:46:37.099828" elapsed="0.046324"/>
+</kw>
+<doc>This test case opens the Zara Home MK website and maximizes the browser window.</doc>
+<status status="PASS" start="2024-10-21T00:46:37.098811" elapsed="0.047873"/>
+</test>
+<status status="PASS" start="2024-10-21T00:46:32.208045" elapsed="4.939534"/>
+</suite>
+<status status="PASS" start="2024-10-21T00:46:32.206823" elapsed="4.943684"/>
+</suite>
+<status status="PASS" start="2024-10-21T00:46:32.205384" elapsed="4.946345"/>
+</suite>
+<status status="PASS" start="2024-10-21T00:46:32.164480" elapsed="4.988275"/>
+</suite>
+<statistics>
+<total>
+<stat pass="1" fail="0" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="1" fail="0" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1" name="QA">Test.QA</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1" name="TestCases">Test.QA.TestCases</stat>
+<stat pass="1" fail="0" skip="0" id="s1-s1-s1-s1" name="HomePage">Test.QA.TestCases.HomePage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

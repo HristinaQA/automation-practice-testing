@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 7.1.1 (Python 3.13.0 on win32)" generated="2024-10-29T11:49:12.202390" rpa="false" schemaversion="5">
+<suite id="s1" name="HomePage" source="C:\Users\hrist\PycharmProjects\Test\QA\TestCases\HomePage.robot">
+<test id="s1-t1" name="T01 - Search For Dress" line="7">
+<kw name="Maximize Browser Window" owner="SeleniumLibrary">
+<msg time="2024-10-29T11:49:12.561790" level="INFO">Cannot capture screenshot because no browser is open.</msg>
+<msg time="2024-10-29T11:49:12.561934" level="FAIL">No browser is open.</msg>
+<doc>Maximizes current browser window.</doc>
+<status status="FAIL" start="2024-10-29T11:49:12.561561" elapsed="0.006230">No browser is open.</status>
+</kw>
+<kw name="Search an item">
+<status status="NOT RUN" start="2024-10-29T11:49:12.568309" elapsed="0.000057"/>
+</kw>
+<doc>Search For Dress</doc>
+<status status="FAIL" start="2024-10-29T11:49:12.560205" elapsed="0.008441">No browser is open.</status>
+</test>
+<status status="FAIL" start="2024-10-29T11:49:12.204956" elapsed="0.364406"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="1" skip="0">All Tests</stat>
+</total>
+<tag>
+</tag>
+<suite>
+<stat pass="0" fail="1" skip="0" id="s1" name="HomePage">HomePage</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
